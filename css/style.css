@@ -1,0 +1,26 @@
+body {
+    background: #222527;
+    font-family: 'Constantia', serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    margin-block: 20px;
+    color: #ffffff;
+}
+button {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+#results {
+    margin-inline: auto;
+    border: #3C494F 10px solid;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #282D2F;
+}

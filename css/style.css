@@ -17,10 +17,16 @@ button {
 }
 #results {
     margin-inline: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.pokemon-card {
+    margin-inline: auto;
     border: #3C494F 10px solid;
     max-width: fit-content;
     max-height: fit-content;
     border-radius: 20px;
-    padding: 10px;
+    padding-block: 10px;
+    padding-inline: 30px;
     background-color: #282D2F;
 }

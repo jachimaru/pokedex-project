@@ -11,7 +11,6 @@ searchButton.addEventListener('click', () => {
     loading.textContent = "Searching for " + userInput + "...";
     results.appendChild(loading);
     showResult()
-    
 })
 
 async function showResult() {
@@ -38,6 +37,7 @@ async function showResult() {
         sprite.style.border = '5px solid #991a1a'
         sprite.style.borderRadius = '50px'
         sprite.style.background = '#556078'
+        sprite.style.padding = '10px'
 
         //typing
         const type1 = data.types[0].type.name[0].toUpperCase() + data.types[0].type.name.slice(1);
